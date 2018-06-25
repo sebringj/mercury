@@ -6,6 +6,7 @@ import {
   Text,
   View
 } from 'react-native'
+import { Provider } from 'react-redux'
 
 const instructions = Platform.select({
   ios: 'Press Cmd+R to reload,\n' +
