@@ -7,10 +7,17 @@
     "test": "jest"
   },
   "dependencies": {
+    "@types/lodash": "^4.14.110",
+    "@types/react-native-vector-icons": "^4.6.1",
+    "@types/redux-actions": "^2.3.0",
+    "axios": "^0.18.0",
+    "lodash": "^4.17.10",
     "react": "16.3.1",
     "react-native": "0.55.4",
+    "react-native-vector-icons": "^4.6.0",
     "react-redux": "^5.0.7",
     "redux": "^4.0.0",
+    "redux-actions": "^2.4.0",
     "redux-logic": "^0.15.0"
   },
   "devDependencies": {
@@ -45,5 +52,10 @@
       "<rootDir>/node_modules/"
     ],
     "cacheDirectory": ".jest/cache"
+  },
+  "rnpm": {
+    "assets": [
+      "./assets/fonts"
+    ]
   }
 }
